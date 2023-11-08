@@ -10,6 +10,8 @@ export default function App() {
         
         </header>
         <main>
+          <img src="https://media.giphy.com/media/3hoLIVAJYkz6T0Ichp/giphy.gif" className="book-pic"/>
+          <br />
           <Dictionary />
         </main>
         
