@@ -6,7 +6,7 @@ h1 {
   font-size: 40px;
 font-family: 'Homemade Apple', cursive;
   text-align: center;
-  padding: 20px;
+
 }
 
 .App a {
@@ -20,4 +20,5 @@ margin: 30px, 0;
   max-width: 150px;
  
 padding-top: 30px;
+padding-bottom: 50px;
 }

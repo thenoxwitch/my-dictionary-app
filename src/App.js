@@ -14,7 +14,7 @@ export default function App() {
         <main>
          
           <h1>🤍Super Cute Dictionary🤍</h1>
-          <Dictionary />
+          <Dictionary defaultKeyword="cute" />
         </main>
         
         <footer className="text-center">
