@@ -1,8 +1,11 @@
 .Dictionary {
-   text-align: center;
+   
     padding: 30px;
 }
 
+form {
+    text-align: center;
+}
 
 .App-footer {
 text-align: center;
