@@ -10,7 +10,7 @@ export default function Dictionary(props) {
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
 
-  function handleDictionResponse(response) {
+  function handleDictionaryResponse(response) {
     
     setResults(response.data[0]);
   }
@@ -22,7 +22,7 @@ setPhotos(response.data.photos);
  function search(){
 //documentation: https://dictionaryapi.dev/e
 let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-axios.get(apiUrl).then(handleDictionResponse);
+axios.get(apiUrl).then(handleDictionaryResponse);
 
 let pexelsApiKey = "Vw7CssoS9CJC6MJz0SUnplSYlDN6ta3H3h0dg9kB344PXMw10itccRc1";
 let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
