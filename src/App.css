@@ -2,7 +2,12 @@
  background: linear-gradient(90deg, rgb(240, 221, 222) 27%, rgb(212, 250, 241) 100%);
 }
 
-
+h1 {
+  font-size: 40px;
+font-family: 'Homemade Apple', cursive;
+  text-align: center;
+  padding: 20px;
+}
 
 .App a {
   color: plum;
@@ -12,8 +17,7 @@ margin: 30px, 0;
 }
 
 .App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
+  max-width: 150px;
+ 
 padding-top: 30px;
 }
